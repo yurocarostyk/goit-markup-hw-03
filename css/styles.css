@@ -33,6 +33,9 @@ button {
 address {
   font-style: normal;
 }
+img {
+  display: block;
+}
 .conteiner {
   width: 100%;
   max-width: 1440px;
@@ -58,7 +61,16 @@ address {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header-conteiner {
+  display: flex;
+  gap: 332px;
+  align-items: center;
+}
 .header-navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
   color: var(--NAVY-BLUE, #4d5ae5);
@@ -73,6 +85,8 @@ address {
   color: var(--NAVY-BLUE, #2e2f42);
 }
 .header-menu-list {
+  display: flex;
+  gap: 40px;
 }
 .header-menu-item {
 }
@@ -93,6 +107,8 @@ address {
   font-style: normal;
 }
 .header-menu-address {
+  display: flex;
+  gap: 40px;
 }
 .header-address-iteam {
 }
@@ -129,6 +145,7 @@ address {
   max-width: 496px;
 }
 .hero-order-service {
+  padding: 16px 32px;
   color: var(--WHITE, #fff);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -136,6 +153,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  border-radius: 4px;
   cursor: pointer;
 }
 .hero-order-service:hover,
@@ -152,8 +170,15 @@ address {
 .visually-hidden {
 }
 .feauture-list {
+  display: flex;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  gap: 24px;
 }
 .features-item {
+  width: calc((100% - 3 * 24) / 4);
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -168,10 +193,13 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  max-height: auto;
 }
 
 .team {
   background: var(--CLOUD, #f4f4fd);
+  padding-top: 120px;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -187,7 +215,10 @@ address {
 }
 
 .team-list {
+  display: flex;
   background: var(--CLOUD, #f4f4fd);
+  padding-right: 156px;
+  gap: 24px;
 }
 .team-iteam {
   background: var(--WHITE, #fff);
@@ -201,6 +232,8 @@ address {
   letter-spacing: 0.02em;
 }
 .team-img {
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 .team-text {
   color: var(--SLATE, #434455);
@@ -208,10 +241,12 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 -----------------------------------------Portfolio-----------------------------
   .portfolio {
+  padding-top: 120px;
 }
 
 .portfolio-title {
@@ -223,6 +258,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin: 0 auto 72px;
 }
 
 .portfolio-list {
