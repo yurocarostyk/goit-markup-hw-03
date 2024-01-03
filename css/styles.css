@@ -60,11 +60,15 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-conteiner {
   display: flex;
   gap: 332px;
   align-items: center;
+  width: 1158px;
+  padding-left: 15px;
+  padding-left: 15px;
 }
 .header-navigation {
   display: flex;
@@ -79,6 +83,7 @@ img {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px 
   text-transform: uppercase;
 }
 .header-logo-color {
@@ -96,6 +101,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-menu-link:hover {
   color: #404bbf;
