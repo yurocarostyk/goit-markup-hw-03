@@ -308,10 +308,12 @@ img {
 }
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-conteiner {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: inline-block;
 }
-
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -320,6 +322,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
   padding: 101.5px 1169px 189.5px 156px;
 }
 
@@ -336,6 +339,6 @@ img {
   padding-right: 1020px;
   padding-left: 156px;
   padding-top: 17.5px;
-  min-width: 262px;
+  max-width: 262px;
   height: 72px;
 }
