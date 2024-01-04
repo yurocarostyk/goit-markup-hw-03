@@ -295,8 +295,8 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin: 0 auto 72px;
-  padding-top: 120px;
+margin: 0 auto 72px;
+ padding-top: 120px;
 }
 
 .portfolio-list {
@@ -306,7 +306,7 @@ img {
 }
 
 .portfolio-item {
-  width: calc((100% - 24px * 2) / 3);
+  width: calc((100% - 48px) / 3);
   padding-bottom: 32px;
   flex-direction: column;
   align-items: flex-start;
@@ -316,7 +316,11 @@ img {
   height: 300px;
   padding-bottom: 32px;
 }
-
+.conteiner-portfolio-item{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-subtitre {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
