@@ -37,13 +37,7 @@ img {
 .link {
   text-decoration: none;
 }
-.conteiner {
-  width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -58,15 +52,19 @@ img {
   overflow: hidden;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
+  border: 1px;
 }
 .header-conteiner {
   display: flex;
   align-items: center;
 }
-
+.conteiner {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .header-navigation {
   display: flex;
   flex-grow: 1;
@@ -91,6 +89,8 @@ img {
   gap: 40px;
 }
 .header-menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
