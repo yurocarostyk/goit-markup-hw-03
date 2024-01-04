@@ -37,7 +37,13 @@ img {
 .link {
   text-decoration: none;
 }
-
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -129,7 +135,7 @@ img {
   background-color: #404bbf;
 }
 .hero {
-  padding-bottom: 120px;
+  padding-top: 188px;
 }
 .hero-conteiner {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -144,8 +150,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
-  min-width: 496px;
+  max-width: 496px;
   height: 120px;
+  padding-bottom: 188px;
 }
 .hero-order-service {
   color: var(--WHITE, #fff);
