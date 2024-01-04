@@ -187,7 +187,9 @@ img {
 ------------------------------------------------feature---------------------
   .feature {
   background: #fff;
-  padding: 120px 0 120px;
+}
+.hero-conteiner {
+  padding: 120px 0;
 }
 .container {
   width: 100%;
@@ -207,7 +209,7 @@ img {
   gap: 24px;
 }
 .features-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
