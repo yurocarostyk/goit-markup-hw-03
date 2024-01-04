@@ -136,6 +136,7 @@ img {
 }
 .hero {
   padding: 188px 0;
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 .hero-conteiner {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -250,9 +251,11 @@ img {
   background: var(--CLOUD, #f4f4fd);
   padding-right: 156px;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-iteam {
   background: var(--WHITE, #fff);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .team-subtitre {
   color: var(--NAVY-BLUE, #2e2f42);
