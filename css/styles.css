@@ -230,7 +230,7 @@ img {
 
 .team {
   background: var(--CLOUD, #f4f4fd);
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
