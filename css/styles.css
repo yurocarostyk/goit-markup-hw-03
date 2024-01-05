@@ -94,7 +94,8 @@ border-bottom: 1px solid #e7e9fc;
   display: flex;
   gap: 40px;
 }
-.header-menu-item {
+.header-menu-item {}
+
   .header-menu-link {
     color: var(--NAVY-BLUE, #2e2f42);
     font-size: 16px;
@@ -104,7 +105,7 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
   }
-}
+
 .header-menu-link:hover {
   color: #404bbf;
 }
@@ -261,11 +262,12 @@ border-bottom: 1px solid #e7e9fc;
 }
 .container-team-item{
   padding: 32px 0;
+   width: calc((100% - 72px) / 4)
 }
 .team-iteam {
   background: var(--WHITE, #fff);
   text-align: center;
-  width: calc((100% - 72px) / 4);
+ ;
   border-radius: 0 0 4px 4px;
 }
 .team-subtitre {
