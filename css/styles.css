@@ -58,8 +58,8 @@ img {
   overflow: hidden;
 }
 .header {
-border-bottom: 1px solid #e7e9fc;
-} 
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -94,17 +94,18 @@ border-bottom: 1px solid #e7e9fc;
   display: flex;
   gap: 40px;
 }
-.header-menu-item {}
+.header-menu-item {
+}
 
-  .header-menu-link {
-    color: var(--NAVY-BLUE, #2e2f42);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
+.header-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-menu-link:hover {
   color: #404bbf;
@@ -234,7 +235,7 @@ border-bottom: 1px solid #e7e9fc;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -258,11 +259,9 @@ border-bottom: 1px solid #e7e9fc;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  
 }
-.container-team-item{
+.container-team-item {
   padding: 32px 0;
-   
 }
 .team-iteam {
   background: var(--WHITE, #fff);
@@ -282,8 +281,8 @@ border-bottom: 1px solid #e7e9fc;
 .team-img {
   display: block;
   margin: 0 auto;
- max-width: 100%;
- height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .team-text {
   color: var(--SLATE, #434455);
@@ -298,7 +297,8 @@ border-bottom: 1px solid #e7e9fc;
   .portfolio {
   padding: 120px 0 120px 0;
 }
-.container{}
+.container {
+}
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -308,8 +308,8 @@ border-bottom: 1px solid #e7e9fc;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-margin: 0 auto 72px;
- padding-top: 120px;
+  margin: 0 auto 72px;
+  padding-top: 120px;
 }
 
 .portfolio-list {
@@ -329,7 +329,7 @@ margin: 0 auto 72px;
   height: 300px;
   padding-bottom: 32px;
 }
-.container-portfolio-item{
+.container-portfolio-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -358,10 +358,11 @@ margin: 0 auto 72px;
   height: 312px;
 }
 .footer-container {
- display: inline-block;
-  flex direction: column;
+  display: inline-block;
+  direction: column;
 }
-.container{}
+.container {
+}
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -372,7 +373,7 @@ margin: 0 auto 72px;
   text-transform: uppercase;
   margin-bottom: 16px;
   padding-left: 156px;
-  
+  display: inline-block;
 }
 
 .footer-logo-color {
@@ -387,5 +388,4 @@ margin: 0 auto 72px;
   letter-spacing: 0.02em;
   max-width: 264px;
   height: 72px;
-  
 }
