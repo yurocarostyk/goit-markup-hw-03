@@ -262,13 +262,13 @@ border-bottom: 1px solid #e7e9fc;
 }
 .container-team-item{
   padding: 32px 0;
-   width: calc((100% - 72px) / 4)
+   
 }
 .team-iteam {
   background: var(--WHITE, #fff);
   text-align: center;
- ;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-subtitre {
   color: var(--NAVY-BLUE, #2e2f42);
