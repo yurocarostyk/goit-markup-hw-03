@@ -258,6 +258,9 @@ img {
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
 }
+.conteiner-team-item{
+  padding: 32px 0;
+}
 .team-iteam {
   background: var(--WHITE, #fff);
   text-align: center;
@@ -271,6 +274,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-img {
   display: block;
