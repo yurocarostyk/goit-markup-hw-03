@@ -190,7 +190,7 @@ img {
 ------------------------------------------------feature---------------------
   .feature {
   background: #fff;
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .container {
@@ -209,6 +209,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   gap: 24px;
+  margin: 0 auto;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
