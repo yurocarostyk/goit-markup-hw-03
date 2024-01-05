@@ -293,9 +293,9 @@ img {
 
 -----------------------------------------Portfolio-----------------------------
   .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
+.container{}
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -339,6 +339,7 @@ margin: 0 auto 72px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding: 0 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
