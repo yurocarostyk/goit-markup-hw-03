@@ -296,7 +296,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.container{}
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
