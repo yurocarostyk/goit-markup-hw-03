@@ -359,6 +359,7 @@ margin: 0 auto 72px;
  display: inline-block;
   flex direction: column;
 }
+.container{}
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
