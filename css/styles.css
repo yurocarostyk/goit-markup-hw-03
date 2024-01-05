@@ -228,7 +228,9 @@ img {
 }
 
 .team {
-  padding: 120px 0;
+  background: var(--CLOUD, #f4f4fd);
+  padding-top: 120px;
+  padding-bottom: 120;
 }
 
 .container {
