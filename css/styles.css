@@ -233,6 +233,11 @@ img {
   background: var(--CLOUD, #f4f4fd);
   padding: 120px 0;
 }
+.conteiner{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -268,8 +273,10 @@ img {
   letter-spacing: 0.02em;
 }
 .team-img {
+  display: block;
   margin: 0 auto;
-  margin-bottom: 32px;
+ max-width: 100%;
+ height: auto;
 }
 .team-text {
   color: var(--SLATE, #434455);
