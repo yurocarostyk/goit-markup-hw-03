@@ -191,9 +191,7 @@ img {
   .feature {
   background: #fff;
 }
-.hero-container {
-  padding: 120px 0;
-}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -232,6 +230,9 @@ img {
 }
 
 .team {
+}
+
+.team-conteiner {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -358,7 +359,6 @@ img {
   height: 312px;
 }
 .footer-container {
-  direction: column;
 }
 .container {
 }
@@ -371,7 +371,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  padding-left: 156px;
   display: inline-block;
 }
 
