@@ -211,7 +211,7 @@ img {
   gap: 24px;
 }
 .features-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
