@@ -60,7 +60,7 @@ img {
 .header {
   border: 1px;
 }
-.header-conteiner {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -138,7 +138,7 @@ img {
   padding: 188px 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.hero-conteiner {
+.hero-container {
   background: var(--NAVY-BLUE, #2e2f42);
   margin: 0 auto;
 }
@@ -189,7 +189,7 @@ img {
   .feature {
   background: #fff;
 }
-.hero-conteiner {
+.hero-container {
   padding: 120px 0;
 }
 .container {
@@ -233,7 +233,7 @@ img {
   background: var(--CLOUD, #f4f4fd);
   padding: 120px 0;
 }
-.conteiner{
+.container{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -258,7 +258,7 @@ img {
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
 }
-.conteiner-team-item{
+.container-team-item{
   padding: 32px 0;
 }
 .team-iteam {
@@ -327,7 +327,7 @@ margin: 0 auto 72px;
   height: 300px;
   padding-bottom: 32px;
 }
-.conteiner-portfolio-item{
+.container-portfolio-item{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -355,7 +355,7 @@ margin: 0 auto 72px;
   padding: 100px 0;
   height: 312px;
 }
-.footer-conteiner {
+.footer-container {
  display: inline-block;
   flex direction: column;
 }
