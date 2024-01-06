@@ -192,6 +192,8 @@ img {
 ------------------------------------------------feature---------------------
   .feature {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
@@ -205,9 +207,7 @@ img {
 .feauture-list {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin: 0 auto;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -216,7 +216,7 @@ img {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
