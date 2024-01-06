@@ -191,9 +191,9 @@ img {
 
 ------------------------------------------------feature---------------------
   .feature {
-  background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+  background: #fff;
 }
 
 .container {
@@ -295,9 +295,9 @@ img {
 
 -----------------------------------------Portfolio-----------------------------
   .portfolio {
-  background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+  background: #fff;
 }
 .container {
 }
