@@ -207,7 +207,6 @@ img {
   display: flex;
   gap: 24px;
   margin: 0 auto;
-  padding: 120px 0;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
