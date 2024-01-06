@@ -191,9 +191,8 @@ img {
 
 ------------------------------------------------feature---------------------
   .feature {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background: #fff;
+  padding: 120px 0;
 }
 
 .container {
@@ -208,6 +207,7 @@ img {
   display: flex;
   gap: 24px;
   margin: 0 auto;
+  padding: 120px 0;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -295,9 +295,9 @@ img {
 
 -----------------------------------------Portfolio-----------------------------
   .portfolio {
+  background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
-  background: #fff;
 }
 .container {
 }
