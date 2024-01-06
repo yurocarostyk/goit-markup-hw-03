@@ -189,8 +189,7 @@ img {
   background-color: #404bbf;
 }
 
-------------------------------------------------feature---------------------
-  .Feature {
+.feature {
   background: #fff;
   padding: 120px 0;
 }
@@ -292,8 +291,7 @@ img {
   padding-bottom: 32px;
 }
 
------------------------------------------Portfolio-----------------------------
-  .Portfolio {
+.portfolio {
   background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
