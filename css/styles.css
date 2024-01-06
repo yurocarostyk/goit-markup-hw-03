@@ -197,7 +197,6 @@ img {
 }
 
 .container {
-  width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -298,6 +297,7 @@ img {
   .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: #fff;
 }
 .container {
 }
